@@ -1,0 +1,74 @@
+{
+    "employees": [
+        {
+            "vendeur": "R\u00e9gis R\u00e9tif",
+            "Nom": "Carlos ARAUJO",
+            "Duree": null,
+            "Poseurs": "Un Poseur",
+            "customer": "COULOMB",
+            "ARnumber": " 2.499573\t",
+            "date": "03-05-22-03-02-37-0537",
+            "date2": "03-05-22"
+        },
+        {
+            "vendeur": "R\u00e9gis R\u00e9tif",
+            "Nom": "Carlos ARAUJO",
+            "Duree": "1 jour",
+            "Poseurs": "1",
+            "poseursdemande": "Carlos ARAUJO",
+            "customer": "LAYET",
+            "ARnumber": " 2.499594\t RETIF Regi\tLIGHT\tLAYET ERIC\t22RR11070\/C22RR11070 705.01 \u20ac\tCommande factur\u00e9e.\t\t17\/2022\t18\/2022\t18\/2022",
+            "comments": "attention, deux SAV a faire en m\u00eame temps",
+            "date": "06-05-22-02-33-37-0537",
+            "date2": "06-05-22"
+        },
+        {
+            "vendeur": "R\u00e9gis R\u00e9tif",
+            "Nom": "Carlos ARAUJO",
+            "Duree": "1 jour",
+            "Poseurs": "1",
+            "poseursdemande": "Carlos ARAUJO",
+            "customer": "LAYET",
+            "ARnumber": "2.499586\t",
+            "comments": "1 journ\u00e9e pour les 2 SAV",
+            "date": "06-05-22-02-34-56-0556",
+            "date2": "06-05-22"
+        },
+        {
+            "vendeur": "Johan Coudert",
+            "Nom": "Laurent MORESCHETTI",
+            "Duree": "1\/2 journ\u00e9e",
+            "Poseurs": "1",
+            "poseursdemande": "Laurent MORESCHETTI",
+            "customer": "FLOCQUET",
+            "ARnumber": "",
+            "comments": "Les pi\u00e8ces sont rassembl\u00e9es et les fiches d'intervention imprim\u00e9es.",
+            "date": "31-05-22-03-48-54-0554",
+            "date2": "31-05-22"
+        },
+        {
+            "vendeur": "R\u00e9gis R\u00e9tif",
+            "Nom": "Carlos ARAUJO",
+            "Duree": "1\/2 journ\u00e9e",
+            "Poseurs": "1",
+            "poseursdemande": "Carlos ARAUJO",
+            "customer": "COULOMB",
+            "ARnumber": " 2.518471",
+            "comments": "Accessoires de hotte \u00e0 r\u00e9cup\u00e9rer en magasin en plus de la cr\u00e9dence. Etag\u00e8res pour niche chez le client.",
+            "date": "04-06-22-03-48-36-0636",
+            "date2": "04-06-22"
+        },
+        {
+            "vendeur": "Khaoula Hammami",
+            "Nom": "Gilles RENAUD",
+            "Duree": "1\/2 journ\u00e9e",
+            "Poseurs": "1",
+            "poseursdemande": "Micka\u00ebl CORSO",
+            "customer": "SMITH",
+            "ARnumber": "2.508884",
+            "comments": "Merci de  me faire venir le SAV de Mme Smith et de le planifier",
+            "date": "06-06-22-05-14-30-0630",
+            "date2": "06-06-22"
+        }
+    ]
+}

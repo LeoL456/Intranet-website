@@ -1,0 +1,135 @@
+<footer>
+    <div class="grid-footer">
+        <div class="brand-footer">
+            <div class="brandcopyright">
+                <img src="https://onyos.fr/img/logo-cuisinella-site.png" height="60px" width="auto" alt="">
+                <p class="copyright-text">© 2022 | Version 1.4</p>
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><!---Cette œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International</a>. -->
+
+            </div>
+        </div>
+        <div class="pages-footer">
+            <h4 class="footer-title">Pages</h4>
+            <ul class="footer-ul">
+                <a class="footer-link" href="">
+                    <li class="footer-list">Accueil</li>
+                </a>
+                <a class="footer-link" href="">
+                    <li class="footer-list">SAV</li>
+                </a>
+                <a class="footer-link" href="">
+                    <li class="footer-list">Cuisinell'Actu</li>
+                </a>
+                <a class="footer-link" href="">
+                    <li class="footer-list">Documentation</li>
+                </a>
+            </ul>
+        </div>
+        <div class="doc-footer">
+            <h4 class="footer-title">Documentation</h4>
+            <ul class="footer-ul">
+                <a class="footer-link" href="">
+                    <li class="footer-list">Le formulaire</li>
+                </a>
+                <a class="footer-link" href="">
+                    <li class="footer-list">Les Cuisinell'Actu</li>
+                </a>
+                <a class="footer-link" href="">
+                    <li class="footer-list">La fabrication</li>
+                </a>
+                <a class="footer-link" href="">
+                    <li class="footer-list">Les AR</li>
+            </ul>
+        </div>
+      </div>
+</footer>
+
+<style>
+:root{
+    --footer-link-color:#111;
+    --footer-link-hover-color:rgb(30, 30, 30);
+}
+[data-theme=dark]{
+    --footer-link-color:rgb(223, 223, 223);
+    --footer-link-hover-color:rgb(190, 184, 184);
+}
+/* Footer */
+    .grid-footer {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-template-areas:
+    "brand-footer brand-footer brand-footer brand-footer"
+    "pages-footer pages-footer doc-footer doc-footer";
+}
+
+.brand-footer{ 
+    display: grid;
+    grid-area: brand-footer;
+    text-align:center;
+ }
+
+.pages-footer{ 
+    grid-area: pages-footer; 
+}
+
+.doc-footer{ 
+    grid-area: doc-footer; 
+}
+.brandcopyright{
+    height: 94px !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.copyright-text{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(115, 112, 112);
+}
+.footer-title{
+    font-size: 20px;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+}
+.footer-link{
+    text-decoration: none !important;
+    margin-top:5px !important;
+    color: var(--footer-link-color);
+}
+.footer-link:hover{
+    color: var(--footer-link-hover-color);
+    transition: all .5s;
+}
+.footer-list{
+    list-style: none !important;
+    margin-top: 5px;
+}
+.footer-ul{
+    padding-left: 0 !important;
+    text-align: center !important;
+}
+@media screen and (max-width:900px) {
+    .grid-footer {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-template-areas:
+    "brand-footer brand-footer brand-footer brand-footer"
+    "pages-footer pages-footer pages-footer pages-footer"
+    "doc-footer doc-footer doc-footer doc-footer";
+}
+
+.brand-footer { grid-area: brand-footer; }
+
+.pages-footer { grid-area: pages-footer; }
+
+.doc-footer { grid-area: doc-footer; }
+
+}
+</style>
